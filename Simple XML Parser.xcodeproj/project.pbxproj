@@ -25,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		832BBE0B1754F65E007DDEC9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		832BBE0C1754F65E007DDEC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		839999A71754E44900322C6B /* Simple XML Parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple XML Parser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839999AA1754E44900322C6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		839999AC1754E44900322C6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +67,8 @@
 		8399999E1754E44900322C6B = {
 			isa = PBXGroup;
 			children = (
+				832BBE0B1754F65E007DDEC9 /* LICENSE */,
+				832BBE0C1754F65E007DDEC9 /* README.md */,
 				839999B01754E44900322C6B /* Simple XML Parser */,
 				839999A91754E44900322C6B /* Frameworks */,
 				839999A81754E44900322C6B /* Products */,
@@ -342,6 +346,7 @@
 				839999CC1754E44A00322C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
