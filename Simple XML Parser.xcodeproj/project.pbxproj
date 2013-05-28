@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83847666175578030071E436 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83847665175578030071E436 /* Cell.m */; };
 		839999AB1754E44900322C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839999AA1754E44900322C6B /* UIKit.framework */; };
 		839999AD1754E44900322C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839999AC1754E44900322C6B /* Foundation.framework */; };
 		839999AF1754E44900322C6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839999AE1754E44900322C6B /* CoreGraphics.framework */; };
@@ -19,14 +20,14 @@
 		839999FE1754E51800322C6B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 839999F41754E51800322C6B /* Default@2x.png */; };
 		839999FF1754E51800322C6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839999F51754E51800322C6B /* main.m */; };
 		83999A041754E58E00322C6B /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 83999A031754E58E00322C6B /* Parser.m */; };
-		83999A061754EA8F00322C6B /* Simple XML Parser-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83999A051754EA8F00322C6B /* Simple XML Parser-Info.plist */; };
-		83999A091754EB4800322C6B /* example.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83999A081754EB4800322C6B /* example.xml */; };
 		83999A0C1754ED9300322C6B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83999A0B1754ED9300322C6B /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		832BBE0B1754F65E007DDEC9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		832BBE0C1754F65E007DDEC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		83847664175578030071E436 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		83847665175578030071E436 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 		839999A71754E44900322C6B /* Simple XML Parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple XML Parser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839999AA1754E44900322C6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		839999AC1754E44900322C6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,7 +46,6 @@
 		83999A031754E58E00322C6B /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
 		83999A051754EA8F00322C6B /* Simple XML Parser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Simple XML Parser-Info.plist"; path = "Simple XML Parser/Simple XML Parser-Info.plist"; sourceTree = SOURCE_ROOT; };
 		83999A071754EAB400322C6B /* Simple XML Parser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Simple XML Parser-Prefix.pch"; path = "Simple XML Parser/Simple XML Parser-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		83999A081754EB4800322C6B /* example.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = example.xml; sourceTree = "<group>"; };
 		83999A0A1754ED9300322C6B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		83999A0B1754ED9300322C6B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,7 +107,6 @@
 			children = (
 				839999E81754E51800322C6B /* Classes */,
 				839999F11754E51800322C6B /* Supporting Files */,
-				83999A081754EB4800322C6B /* example.xml */,
 			);
 			path = Demonstration;
 			sourceTree = "<group>";
@@ -119,6 +118,8 @@
 				839999EA1754E51800322C6B /* AppDelegate.m */,
 				839999EB1754E51800322C6B /* ViewController.h */,
 				839999EC1754E51800322C6B /* ViewController.m */,
+				83847664175578030071E436 /* Cell.h */,
+				83847665175578030071E436 /* Cell.m */,
 				83999A0A1754ED9300322C6B /* WebViewController.h */,
 				83999A0B1754ED9300322C6B /* WebViewController.m */,
 			);
@@ -205,8 +206,6 @@
 				839999FC1754E51800322C6B /* Default-568h@2x.png in Resources */,
 				839999FD1754E51800322C6B /* Default.png in Resources */,
 				839999FE1754E51800322C6B /* Default@2x.png in Resources */,
-				83999A061754EA8F00322C6B /* Simple XML Parser-Info.plist in Resources */,
-				83999A091754EB4800322C6B /* example.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +221,7 @@
 				839999FF1754E51800322C6B /* main.m in Sources */,
 				83999A041754E58E00322C6B /* Parser.m in Sources */,
 				83999A0C1754ED9300322C6B /* WebViewController.m in Sources */,
+				83847666175578030071E436 /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
