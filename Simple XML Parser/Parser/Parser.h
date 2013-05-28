@@ -8,12 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-/** @class      Parser
+/** A `NSXMLParser` subclass for parsing XML feeds that are represented by a simple array of items, such as a RSS feed. The process is as follows:
  
-    @abstract   A `NSXMLParserDelegate` object for parsing XML feeds that are represented by a simple array of
-                items, such as a RSS feed.
+ - Initialize the Parser using the standard `NSXMLParser` initialization methods (e.g. `initWithContentsOfURL`);
  
-    @example   For example, you might have have some code that says:
+ - Set the `rowElementName` string and `elementNames` array based upon the format of your XML;
+ 
+ - Call the standard `NSXMLParser` instance method, `parse` to initiate the parsing process.
+ 
+For example, you might have have some code that says:
 
     NSURL *url = [NSURL URLWithString:@"http://rss.news.yahoo.com/rss"];
     Parser *parser = [[Parser alloc] initWithContentsOfURL:url];
@@ -29,6 +32,11 @@ The array of dictionary items is now in `parser.items`. For example
  */
 
 @interface Parser : NSXMLParser
+
+/**---------------------------------------------------------------------------------------
+ * @name Configuring the parser
+ *  ---------------------------------------------------------------------------------------
+ */
 
 /** @property   rowElementName
  
@@ -50,6 +58,11 @@ The array of dictionary items is now in `parser.items`. For example
  */
 
 @property (nonatomic, copy) NSArray *elementNames;
+
+/**---------------------------------------------------------------------------------------
+ * @name Retrieving results
+ *  ---------------------------------------------------------------------------------------
+ */
 
 /** @property   items
  
