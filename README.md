@@ -21,6 +21,8 @@ The array of dictionary items is now in a `NSArray`, `parser.items`. You can ext
     
 For a more complete demonstration, refer to the code in this project which entails parsing the RSS feed for Yahoo! Top News.
 
+For a description of the simple `Parser` class see the [online documentation](http://robertmryan.github.io/Simple-XML-Parser/Classes/Parser.html).
+
 For something more complicated, where you want to parse the entire XML into a structure that captures all of the tags and full nesting of the elements, see my [XMLNodeParser](https://github.com/robertmryan/xml-node-parser). But this simple XML parser is adequate for many simple projects.
 
 --
